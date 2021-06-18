@@ -1,0 +1,241 @@
+header{
+        margin-top: 20px;
+}
+
+body{
+      background-color:#261036;
+      color: #D7D101;
+
+}
+
+footer{
+  line-height: 300%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  position:static;
+  background-color: #00000099;
+  color: #FFFFFF;
+  text-align: center;
+  font-style: italic;
+  font-size: 90%;
+
+}
+a{
+  color:#261036;
+  font-style: bold;
+  font-size:1.5vw;
+}
+
+p{
+  font-size:1.5vw;
+}
+
+h1{
+  font-size:1.5vw;
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.content{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:40%;
+  border:solid;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+
+.content1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:50%;
+  border:solid;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.flex-container{
+        display:flex;
+        flex-wrap: wrap;
+        padding-left: 150px
+}
+
+.flex-container1{
+    padding-left: 400px;
+
+}
+
+.flex-container > div {
+    margin:10px;
+    padding: 10px;
+    background-color: #D7D101;
+    color:#261036;
+}
+
+
+.flex-container1 > div {
+    margin:10px;
+    padding: 10px;
+    background-color: #D7D101;
+    color:#261036;
+}
+
+.saints{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:50%;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px
+}
+
+.devs{
+
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #D7D101;
+  color: #261036;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #261036;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.active {
+  color: #261036;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: #261036;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D7D101;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #261036;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #261036;
+  color: #D7D101;
+}
+
+.dropdown-content a:hover {
+  background-color: #261036;
+  color: #D7D101;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+.HL{
+  text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.HL1{
+  font-size:20px;
+  font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+.p1{
+  font-family:  Arial, Helvetica, sans-serif;
+
+}
